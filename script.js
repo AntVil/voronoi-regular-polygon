@@ -48,7 +48,7 @@ function update() {
     ctxt.fillStyle = "#F90";
     ctxt.strokeStyle = "#F90";
 
-    let length = 0.5 / Math.cos(Math.PI / n)
+    let length = 0.5 / Math.cos(Math.PI / (n - 1));
 
     for (let i = 0; i < n - 1; i++) {
         let angle = 2 * Math.PI * (i + 0.5) / (n - 1);
