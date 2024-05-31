@@ -27,7 +27,7 @@ function update() {
 
     ctxt.lineWidth = 0.01;
 
-    if(checkbox.checked) {
+    if (checkbox.checked) {
         ctxt.beginPath();
         ctxt.arc(0, 0, RADIUS, 0, 2 * Math.PI);
         ctxt.stroke();

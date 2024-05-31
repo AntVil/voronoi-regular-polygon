@@ -16,7 +16,7 @@ canvas {
     height: min(100svw, 100svh);
 }
 
-input[type="range"]{
+input[type="range"] {
     cursor: pointer;
     position: fixed;
     bottom: 10px;
@@ -27,38 +27,34 @@ input[type="range"]{
     background: transparent;
 }
 
-input[type="range"]::-webkit-slider-runnable-track{
+input[type="range"]::-webkit-slider-runnable-track {
     height: 12px;
-    border-width: 0px;
-    border-style: solid;
     border-radius: 30px;
     background-color: #000000;
     border-color: #ffffff;
 }
 
-input[type="range"]::-webkit-slider-thumb{
+input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     width: 18px;
     height: 18px;
     margin-top: -3px;
     border-radius: 30px;
-    background-color: #ff9900;
+    background-color: #F90;
 }
 
-input[type="range"]::-moz-range-track{
+input[type="range"]::-moz-range-track {
     width: 100%;
     height: 12px;
     border-radius: 30px;
     background-color: #000000;
 }
 
-input[type="range"]::-moz-range-thumb{
+input[type="range"]::-moz-range-thumb {
     width: 18px;
     height: 18px;
-    border-width: 0px;
-    border-style: solid;
     border-radius: 30px;
-    background-color: #ff9900;
+    background-color: #F90;
 }
 
 input[type="checkbox"] {
@@ -77,13 +73,13 @@ input[type="checkbox"]::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 2px solid #FD0;
+    border: 2px solid #F90;
     background-color: #0000;
     border-radius: 3px;
 }
 
 input[type="checkbox"]:checked::before {
-    background-color: #FD0;
+    background-color: #F90;
 }
 
 input[type="checkbox"]:checked::after {
